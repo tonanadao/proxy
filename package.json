@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts":{
-    "start":"node index.js"
+    "start": "nodemon -x 'node --experimental-specifier-resolution=node index || touch index.js'"
   },
   "dependencies": {
     "cors-anywhere": "^0.4.4"
