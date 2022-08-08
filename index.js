@@ -1,7 +1,7 @@
 var cors_proxy = require('cors-anywhere');
 var fs = require('fs');
 
-var host = process.env.HOST || 'sepezho.com';
+var host = "tonana-proxy.herokuapp.com";
 var port = process.env.PORT || 5555;
 
 cors_proxy.createServer({
