@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts":{
+  "scripts": {
     "start": "nodemon -x 'node --experimental-specifier-resolution=node index || touch index.js'"
   },
   "dependencies": {
-    "cors-anywhere": "^0.4.4"
+    "cors-anywhere": "^0.4.4",
+    "nodemon": "^2.0.19"
   }
 }
